@@ -19,5 +19,5 @@ describe ('Manage Course Page', ()=>{
         expect(saveButton.prop('type')).toBe('submit');
         saveButton.simulate('click');
         expect(wrapper.state().errors.title).toBe('Title must be at least 5 characters.');
-    })
+    });
 });
